@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-   		 <class name="com.learnautomation.selenium.Demo"/>
+   		 <class name="com.learnautomation.selenium.Admin_USER_CRM_Flow"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
