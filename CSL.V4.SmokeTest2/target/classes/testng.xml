@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="1" name="Test">
+    <classes>
+    	<class name="CSL.V4.SmokeTest.Automation.Admin_USER_CRM_Flow"/>
+      	<class name="CSL.V4.SmokeTest.Automation.Admin_Activities"/>
+      	<class name="CSL.V4.SmokeTest.Automation.Dealer_User"/>
+      	<class name="CSL.V4.SmokeTest.Automation.Spanish_User"/>
+      	<class name="CSL.V4.SmokeTest.Automation.Admin_Tear_Down_Activities"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
