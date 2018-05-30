@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="425530" started-at="2018-05-29T12:16:23Z" finished-at="2018-05-29T12:23:29Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="425530" started-at="2018-05-29T12:16:23Z" finished-at="2018-05-29T12:23:29Z">
+      <class name="csl.v4.smokeTest.Automation.Admin_Tear_Down_Activities">
+        <test-method status="PASS" signature="DriverLaunch()[pri:0, instance:csl.v4.smokeTest.Automation.Admin_Tear_Down_Activities@6c80d78a]" name="DriverLaunch" is-config="true" duration-ms="17128" started-at="2018-05-29T17:46:23Z" finished-at="2018-05-29T17:46:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverLaunch -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:csl.v4.smokeTest.Automation.Admin_Tear_Down_Activities@6c80d78a]" name="login" duration-ms="400263" started-at="2018-05-29T17:46:41Z" description="Dashboard1" data-provider="loginData" finished-at="2018-05-29T17:53:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin_autotest@k2k.net]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test123$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:csl.v4.smokeTest.Automation.Admin_Tear_Down_Activities@6c80d78a]" name="logout" is-config="true" duration-ms="7956" started-at="2018-05-29T17:53:21Z" finished-at="2018-05-29T17:53:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:csl.v4.smokeTest.Automation.Admin_Tear_Down_Activities@6c80d78a]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-05-29T17:53:29Z" finished-at="2018-05-29T17:53:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- csl.v4.smokeTest.Automation.Admin_Tear_Down_Activities -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
